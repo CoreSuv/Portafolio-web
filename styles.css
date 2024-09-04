@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(27, 23, 41);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    background-color: rgb(27, 23, 41);
+}
+
+.nav-link{
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.nav-link:hover{
+    color: rgb(2, 42, 90);
+    background-color: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+
+.main{
+   background-image: url(https://resizer.glanacion.com/resizer/v2/el-dia-internacional-del-programador-se-celebra-VQV3UUONR5EJNJUGNXZF2IGP3A.jpg?auth=090a49b5ceca8f981a102997d13190656d6cccefc17023f7f4048ffd39bdcc68&width=880&height=586&quality=70&smart=true);
+   background-size: cover;
+   width: 100%;
+   height: 95vh;
+}
+
+
+.main h3{
+    font-size: 4.4rem;
+    font-weight: 900;
+    color: white;
+}
+
+.main h6{
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    line-height: 1.5;
+    border-bottom: 3px solid white;
+    width: 40%;
+    color: white;
+}
+
+.main .btn{
+    background-color: transparent;
+    font-weight: bold;
+    border-radius: 5px;
+    border-color: bisque;
+    height: 55px;
+    width: 138px;
+}
+
+.main .btn:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-color: transparent;
+    transition: 0.3s;
+}
+
+.container{
+    background-color: transparent;
+    align-items: center;
+}
+
+.row{
+    background-color: transparent;
+}
+
+.col{
+    background-color: transparent;
+}
+
+#habilidades{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+
+#sobre-mi h2{
+    color: rgb(0, 0, 0);
+    font-size: 3rem;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+#sobre-mi h3{
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+#sobre-mi p{
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+#proyectos{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 200;
+    background-color: rgb(27, 23, 41);
+}
+
+footer{
+    color: white;
+    text-align: center;
+    padding: 1px;
+    width: 100%;
+}	
